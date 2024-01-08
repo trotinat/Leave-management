@@ -1,0 +1,17 @@
+<div class="lrequest-bar-char">
+  <h5 class="text-center pb-3">Report of last 12 Month</h5>
+  <ngx-charts-bar-vertical-2d
+    [scheme]="colorScheme"
+    [results]="leaveData"
+    [gradient]="gradient"
+    [xAxis]="showXAxis"
+    [yAxis]="showYAxis"
+    [legend]="showLegend"
+    [legendTitle]="legendTitle"
+    [showXAxisLabel]="showXAxisLabel"
+    [showYAxisLabel]="showYAxisLabel"
+    [xAxisLabel]="xAxisLabel"
+    [yAxisLabel]="yAxisLabel"
+    (select)="onSelect($event)">
+  </ngx-charts-bar-vertical-2d>
+</div>

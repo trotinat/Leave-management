@@ -1,0 +1,57 @@
+.custom-nav {
+    background-color: #333;
+    color: #fff;
+ 
+  }
+  
+
+  
+  .custom-nav .sidebar-header .btn-info {
+    background-color: #333;
+    border: 1px solid #fff;
+    color: #fff;
+  }
+  
+  .custom-nav .sidebar-header .btn-info:hover {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .custom-nav .navbar-brand {
+    font-weight: bold;
+  }
+  
+  .custom-nav .mat-flat-button {
+    color: #fff;
+    background-color: #333;
+  }
+  
+  .custom-nav .mat-flat-button:hover {
+    background-color: transparent;
+    transition: 0.5s;
+    transform: scale(1.2);
+  
+ 
+  }
+  
+  .custom-nav .mat-menu-content {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .custom-nav .mat-list-item {
+    border-bottom: 1px solid #555;
+  }
+  
+  .custom-nav .mat-list-item:last-child {
+    border-bottom: none;
+  }
+  
+  .custom-nav .mat-list-item a {
+    color: #fff;
+  }
+  
+  .custom-nav .mat-list-item a:hover {
+    color: #ffcc00;
+  }
+  

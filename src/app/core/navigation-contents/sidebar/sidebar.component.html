@@ -1,0 +1,36 @@
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+<nav id="sidebar" [ngClass]="isOpen ? 'active' : ''">
+ 
+    <div class="sidebar-logo">
+      <img src="../../../../assets/image/hr-managemer-high-resolution-logo-transparent.png" alt="Logo">
+    </div>
+
+  <ul class="list-unstyled sidebar-items">
+    <li>
+      <a routerLink="/home/employees" routerLinkActive="active">
+        <i class="fas fa-user"></i>
+        <span>Employee</span>
+      </a>
+    </li>
+    <li>
+      <a routerLink="/home/leaverequests" routerLinkActive="active">
+        <i class="fas fa-calendar-alt"></i>
+        <span>Leave Request</span>
+      </a>
+    </li>
+    <li>
+      <a routerLink="/home/leavetypes" routerLinkActive="active">
+        <i class="fas fa-file-alt"></i>
+        <span>Leave Type</span>
+      </a>
+    </li>
+    <li>
+      <a routerLink="/home/event" routerLinkActive="active">
+        <i class="fas fa-calendar-check"></i>
+        <span>Event</span>
+      </a>
+    </li>
+  </ul>
+</nav>
+
