@@ -1,19 +1,3 @@
-Working Demo: https://ashrawan.github.io/leave-management-angular/
-
- Github Link:
-- [ ] Backend: https://github.com/ashrawan/employee-leave-management
-- [x] Frontend: https://github.com/ashrawan/leave-management-angular
-
-# Test Credentials:
-
-- username: admin, password: admin,
-- username: testadmin1, password: testadmin1
-- username: testadmin3, password: testadmin3
-- username: testadmin4, password: testadmin4
-
-( Wait at Least 20 Seconds for login, Server needs to come online.. )
-
-# LeaveManagementAngular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.4.
 
